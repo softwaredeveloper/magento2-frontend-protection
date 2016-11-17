@@ -1,0 +1,19 @@
+{
+  "name": "codex/frontendprotection",
+  "description": "Magento2 FrontendProtection",
+  "authors": [
+    {
+      "name": "code-x",
+      "email": "magento@code-x.de"
+    }
+  ],
+  "type": "magento2-module",
+  "autoload": {
+    "files": [
+      "registration.php"
+    ],
+    "psr-4": {
+      "Codex\\FrontendProtection\\": ""
+    }
+  }
+}
